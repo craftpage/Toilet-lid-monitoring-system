@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="s%W#qh=]wYtb:{VTT;aK">カウンター</variable><variable id="o@HfGD(aS?+2n?hPrLDP">u</variable></variables><block type="pxt-on-start" id="Fo~cswJ,niEm~@6(;:g5" x="0" y="0"/><block type="device_forever" id="J%n0ERKp.Yq3g({4#gB!" x="445" y="30"><statement name="HANDLER"><block type="controls_if" id="iKQhAXG=Qke`%=%mKV:W"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="jM2t#f|`*!/~hF8O%tp*"><field name="OP">GTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_magnetic_force" id="i^SYA=Ra8@bbtad:b]E="><field name="NAME">Dimension.Strength</field></block></value><value name="B"><shadow type="math_number" id="Fk7bJZ|XiCM@ZJy%6b3V"><field name="NUM">500</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="9n[W#ZHD9tv)^cBtqe:a"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="playMelody" id="~QQiu2)ys^F8AW6Bv.,?"><value name="melody"><shadow type="melody_editor" id="*xhlw_*BK5}Cvn%?eDla"><field name="melody">"C5 B A G F E D C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="(+[NqQ~mB+ia8i=1wGar"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="Gm-2}YuVOgxoI?qY/MzR"><field name="LEDS">`
+        . . # # # 
+        . # . . . 
+        . # . . . 
+        . # . . . 
+        . . # # #
+        `</field></block></statement></block></statement></block></xml>
