@@ -7,8 +7,12 @@ basic.forever(function () {
             # . . . #
             . # # # .
             `)
-        music.playMelody("C5 B A G F E D C ", 120)
+        pins.digitalWritePin(DigitalPin.P2, 1)
+        basic.pause(3000)
+        pins.digitalWritePin(DigitalPin.P2, 0)
+        basic.pause(3000)
     } else {
+        pins.digitalWritePin(DigitalPin.P2, 0)
         basic.showLeds(`
             . . # # #
             . # . . .
